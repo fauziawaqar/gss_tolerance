@@ -1,0 +1,41 @@
+---
+title: "Tolerance and Intolerance in the GSS"
+author: "Fauzia Waqar"
+format: pdf
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+```{r}
+source("01_gss_tolerance.R")
+```
+
+# Replication
+```{r}
+fig1_rep
+```{r}
+fig2_rep
+fig5_rep
+fig1_ext
+fig2_ext
+fig5_ext
+happy_plot
+tv_plot
+```
+
+**1. Problems and tricky parts**
+
+The answer codes were different for each question, and the library question was reversed. "Don't know" was hidden, so I had to find it. My Figure 5 is about 0.98, but the paper's is about 0.8. I do not know why.
+
+**2. What Mondak and Sanders found**
+
+Figure 1 shows people became less intolerant, from about 7 to about 5.5. But the authors say this may be because people's feelings about some groups changed. Figure 2 shows this: people became more accepting of homosexuals, but not of racists. Figure 5 shows most people still said "no" at least once. So tolerance grew only a little.
+
+**3. What has changed since 1998**
+
+The score kept falling slowly, then went up a little at the end. Acceptance of homosexuals kept growing. Intolerance toward racists went up at the end. Figure 5 stayed flat.
+
+
+
+
